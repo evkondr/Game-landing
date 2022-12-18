@@ -1,2 +1,9 @@
 @import "./variables";
 @import "./fonts";
+@import "./reset";
+
+body{
+    background-color: $main-color;
+    font-family: $main-color;
+    font-size: 10px;
+}
