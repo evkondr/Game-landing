@@ -1,0 +1,14 @@
+@mixin button($bgc: $theme-color-2, $fs: 1.6rem, $pd: 1.2rem 3.6rem){
+    font-size: $fs;
+    background-color: $bgc;
+    padding: $pd;
+    transition: background-color .2s;
+    &:hover{
+        background-color: rgba($color: $bgc, $alpha: .7);
+    }
+}
+@mixin font($fs: 1.6rem, $fw: 400, $lh:27px){
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
