@@ -1,3 +1,4 @@
+@import "./mixins";
 .container{
     width: 1406px;
     margin: 0 auto;
@@ -15,4 +16,8 @@
     padding: 1.2rem 3.6rem;
     background-color: $theme-color-2;
     text-transform: uppercase;
+}
+.section-header{
+    @include font(4rem, 600, normal);
+    text-align: center;
 }
